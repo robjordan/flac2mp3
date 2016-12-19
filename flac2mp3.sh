@@ -3,7 +3,10 @@
 # Delete input file if successfully converted, but only if path contains "portable"
 echo "Converting " $1
 mp3file="${1%.*}".mp3
-flac -scd "$1" | lame -V0 - "$mp3file"
+# the command below doesn't transfer tags - no use!
+# flac -scd "$1" | lame -V0 - "$mp3file"
+# the one below seems better
+ffmpeg -y -i "$1" -codec:a libmp3lame -q:a 0 -map_metadata 0 -id3v2_version 3 "$mp3file"
 if [ $? -ne 0 ]
 then
    echo "something went wrong, return value: " $?
