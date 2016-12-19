@@ -4,9 +4,8 @@ pfile=$1
 mfile=${pfile/portable/master}
 if [ ! -f "$mfile" ]; then
   if [ ! -f "${mfile/%mp3/flac}" ]; then
-    echo "master: " $mfile
-    echo "portable: " $pfile
-    echo rm "$pfile"
+    echo rm  "$pfile"
+    rm "$pfile"
   fi
 fi
 
