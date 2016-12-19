@@ -1,30 +1,182 @@
+  [4mWARNING:[0m Failed to get tags from file.
+  ABBREV
+  ACCURATERIPCOUNTALLOFFSETS
+  ACCURATERIPCOUNTWITHOFFSET
+  ACCURATERIPCRC
+  AccurateRipDiscID
+  ACCURATERIPDISCID
+  ACCURATERIPID
+  ACCURATERIPOFFSET
+  AccurateRipResult
+  ACCURATERIPTOTAL
   acoustid_id
+  ACOUSTID_ID
+  album
+  Album
   ALBUM
+  albumartist
   ALBUMARTIST
+  ALBUM ARTIST
   albumartistsort
+  ALBUMARTISTSORT
+  ALBUMSORT
+  %A means ALBUM
+  %a means ARTIST
+  arranger
+  ARRANGER
+  artist
+  Artist
   ARTIST
+  ARTISTS
   artistsort
+  ARTISTSORT
   asin
+  ASIN
+  BAND
   barcode
+  BARCODE
+  Catalog
   catalognumber
+  CATALOGNUMBER
+  CDDB Disc ID
+  CDTOC
+  %c means COMMENT
+  comment
+  Comment
+  COMMENT
+  compilation
+  COMPILATION
+  composer
+  COMPOSER
+  COMPOSERSORT
+  conductor
+  CONDUCTOR
+  COPYRIGHT
+  date
+  Date
   DATE
+  DESCRIPTION
+  DISC
+  discid
+  DISCID
+  discnumber
   DISCNUMBER
+  DISCSUBTITLE
+  disctotal
   DISCTOTAL
+  %d means DATE
+  %E means the original extension of the file
+  ENCODED BY
+  Encoder
   ENCODER
+  ENCODER SETTINGS
+  encoding
+  engineer
+  ENGINEER
+  ENSEMBLE
+  %F means the original basename of the file
+  format
+  genre
+  Genre
+  GENRE
+  %g means GENRE
+  HDTRACKS
+  %i means that the text has to be ignored
   isrc
+  ISRC
   label
+  LABEL
+  LABELNO
   language
+  Language
+  LANGUAGE
+  LYRIC
+  lyricist
+  LYRICIST
+  LYRICS
   MCN
+  %% means %
   media
+  MEDIA
+  mixer
+  MIXER
   musicbrainz_albumartistid
+  MUSICBRAINZ_ALBUMARTISTID
   musicbrainz_albumid
+  MUSICBRAINZ_ALBUMID
   musicbrainz_artistid
+  MUSICBRAINZ_ARTISTID
+  musicbrainz_discid
+  MUSICBRAINZ_DISCID
+  musicbrainz_releasegroupid
+  MUSICBRAINZ_RELEASEGROUPID
+  MUSICBRAINZ_RELEASETRACKID
   musicbrainz_trackid
+  MUSICBRAINZ_TRACKID
+  musicbrainz_workid
+  MUSICBRAINZ_WORKID
+  musicip_puid
+  %n means NUMBER
+  NOTES
   NUMBER
+  ORGANIZATION
   originaldate
+  ORIGINALDATE
+  ORIGINALYEAR
+  partnumber
+  performer
+  PERFORMER
+  %P means the original path of the file
+  producer
+  PRODUCER
   releasecountry
+  RELEASECOUNTRY
+  RELEASE DATE
   releasestatus
+  RELEASESTATUS
   releasetype
+  Release Type
+  RELEASETYPE
+                         Rename without asking for confirmation
+  replaygain_album_gain
+  REPLAYGAIN_ALBUM_GAIN
+  replaygain_album_peak
+  REPLAYGAIN_ALBUM_PEAK
+  replaygain_reference_loudness
+  REPLAYGAIN_REFERENCE_LOUDNESS
+  replaygain_track_gain
+  REPLAYGAIN_TRACK_GAIN
+  replaygain_track_peak
+  REPLAYGAIN_TRACK_PEAK
+  Retail Date
+  Rip Date
+  Ripping Tool
   script
+  SCRIPT
+  SITUATION
+  software
+  SOURCE
+  sourcemedia
+  Style
+  STYLES
+  title
+  Title
   TITLE
+  TITLESORT
+  %t means TITLE
+  TONES
+  totaldiscs
+  TOTALDISCS
+  totaltracks
+  TOTALTRACKS
+  TRACKNUM
+  tracknumber
+  Tracknumber
+  tracktotal
   TRACKTOTAL
+  TYPE
+  UPC
+  venue
+  VENUE
+  WORK
+  WRITER
