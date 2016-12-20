@@ -12,7 +12,7 @@ touch "$lockfile"
 find . -type f -newer ../portable/last-updated -print | cpio -pdmlv ../portable
 
 # rerun the FLAC->mp3 conversion process
-find $BASE/portable -name '*.flac' -exec flac2mp3.sh {} \;
+find $BASE/portable -name '*.flac' -exec $HOME/bin/flac2mp3.sh {} \;
 
 # finally update the timestamp for next time
 mv "$lockfile" $BASE/portable/last-updated

@@ -12,5 +12,7 @@ touch "$lockfile"
 
 # remove any files from 'portable' which are absent on 'master' (exc mp3/flac)
 find $BASE/portable/[0-9A-Z]/ -type f -exec $HOME/bin/rm-obsolete-files-inner.sh {} \;
+# remove any directories that are empty as a result of this pruning
+find $BASE/portable -type d -empty -delete
 
 rm "$lockfile"
