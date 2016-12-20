@@ -9,7 +9,7 @@ if [ -f "$lockfile" ]; then
   exit 1
 fi
 touch "$lockfile"
-find . -type f -newer ../portable/last-updated -print | cpio -pdmlv ../portable
+find . -type f -newer ../portable/last-updated -print | cpio --quiet -pdmlv ../portable
 
 # rerun the FLAC->mp3 conversion process
 find $BASE/portable -name '*.flac' -exec $HOME/bin/flac2mp3.sh {} \;
